@@ -62,7 +62,7 @@ describe("common scenarios", () => {
 
   it("should not fail on dom operation", () => {
     window.onload = () => "blah";
-    window.addEventListener("on input", () => {});
+    window.addEventListener("oninput", () => {});
 
     const el = document.getElementById("id");
     el.innerText = "BOOM";
