@@ -1,0 +1,15 @@
+{
+  "name": "dummie",
+  "version": "0.0.1",
+  "description": "Create a dummy object that does nothing.",
+  "main": "index.js",
+  "author": "Kevin \"Kassimo\" Qian",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.0"
+  }
+}
